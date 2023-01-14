@@ -1,0 +1,22 @@
+spectaql:
+  logoFile: ./test/fixtures/logo.png
+  faviconFile: ./test/fixtures/favicon.png
+  displayAllServers: true
+
+introspection:
+  removeTrailingPeriodFromDescriptions: false
+  schemaFile: ./src/schema.gql
+  queryNameStrategy: capitalizeFirst
+  fieldExpansionDepth: 2
+
+  spectaqlDirective:
+    enable: true
+
+extensions:
+  graphqlScalarExamples: true
+
+servers:
+  - url: localhost:3000/graphql
+    description: Staging
+  - url: localhost:/3000graphql
+    description: Production
