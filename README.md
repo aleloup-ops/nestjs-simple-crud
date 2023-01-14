@@ -28,6 +28,8 @@ The project is using package spectaql to document the GraphQL API.
 
 To generate the documentation, run :
 
-```npx spectaql config.yml```
+```bash
+npx spectaql config.yml
+```
 
 The documentation is now available in the `public` directory at the root of the project as index.html. Open it with your internet browser to get more data about the API
