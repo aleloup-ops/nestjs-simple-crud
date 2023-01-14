@@ -1,1 +1,2 @@
-./src/serviceAccountKey.json
+nest-app/node_modules
+nest-app/src/serviceAccountKey.json

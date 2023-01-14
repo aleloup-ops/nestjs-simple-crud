@@ -1,0 +1,53 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Book {
+  """Book's id"""
+  id: String!
+
+  """Book's name"""
+  title: String!
+
+  """Book's author"""
+  author: String!
+
+  """Book's description"""
+  description: String!
+}
+
+type Query {
+  findAll: [Book!]!
+  findOne(id: String!): Book!
+}
+
+type Mutation {
+  createBook(createBookInput: CreateBookInput!): Book!
+  updateBook(updateBookInput: UpdateBookInput!): Book!
+  removeBook(id: String!): Book!
+}
+
+input CreateBookInput {
+  """Book's name"""
+  title: String!
+
+  """Book's author"""
+  author: String!
+
+  """Book's description"""
+  description: String!
+}
+
+input UpdateBookInput {
+  """Book's name"""
+  title: String!
+
+  """Book's author"""
+  author: String!
+
+  """Book's description"""
+  description: String!
+
+  """Book's id"""
+  id: String!
+}
