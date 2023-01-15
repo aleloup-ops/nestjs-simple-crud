@@ -78,7 +78,7 @@ spectaql| Documentation for GraphQL API|2.0.3
 
 ## How to use the project ##
 
-Since this project only contains an API
+Since this project only contains an API, you can either call it by yourself on port 3000 with the "/graphql" endpoint. I also implemented graphql playground, so you can just access "localhost:3000/graphql" on any browser and try querying from there.
 
 ## Documentation ##
 
