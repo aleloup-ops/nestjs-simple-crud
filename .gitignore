@@ -2,3 +2,5 @@ nest-app/node_modules
 nest-app/src/serviceAccountKey.json
 nest-app/public
 .DS_STORE
+nest-app/dist
+nest-app/public

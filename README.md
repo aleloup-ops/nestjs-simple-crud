@@ -2,7 +2,39 @@
 
 ## Project Description ##
 
+The goal of this project is to create a simple CRUD at first using NestJs. The API is made with GraphQL and firestore is used as the database. I decided to work on this project as a point of start discovering NestJs.
+
+I also want to grow the project more and more as I'm learning new NestJs features.
+
 ## How to install and Run the project ##
+
+What you will need to run the project :
+
+- Node.Js
+- @nestjs/cli
+
+First, clone the repository running this command :
+
+```bash
+git clone https://github.com/aleloup-ops/nestjs-simple-crud.git
+```
+Now access the nest-app directory :
+
+```bash
+cd nest-app/
+```
+
+To install all the required packages, run :
+
+```bash
+npm install
+```
+
+You are now ready to run the project :
+
+```bash
+
+```
  
 ## Packages ##
 
