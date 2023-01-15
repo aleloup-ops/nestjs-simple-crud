@@ -8,10 +8,16 @@ I also want to grow the project more and more as I'm learning new NestJs feature
 
 ## How to install and Run the project ##
 
-What you will need to run the project :
+#### What you will need to run the project : ####
 
 - Node.Js
 - @nestjs/cli
+
+This project uses firestore as database, you will need first to create a project on console.firebase.com. Then you will have to create a new collection called "books" on firestore.
+
+Last step is to add your credentials to the project. To do so go to "Projects Settings" > Service Accounts > Generate a new key. You can now download a json file that you will rename "serviceAccountkey.json" that you will move in the nest-app folder.
+
+#### Install and Run the project ####
 
 First, clone the repository running this command :
 
@@ -30,10 +36,28 @@ To install all the required packages, run :
 npm install
 ```
 
+Now build the project either with nest cli or npm :
+
+```bash
+nest build
+```
+
+or
+
+```bash
+npm run build
+```
+
 You are now ready to run the project :
 
 ```bash
+nest start
+```
 
+or 
+
+```bash
+npm run start
 ```
  
 ## Packages ##
@@ -53,6 +77,8 @@ spectaql| Documentation for GraphQL API|2.0.3
 
 
 ## How to use the project ##
+
+Since this project only contains an API
 
 ## Documentation ##
 
